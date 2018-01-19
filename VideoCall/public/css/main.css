@@ -1,0 +1,18 @@
+body{
+	background: #f1efed;
+}
+.btn{
+	display: block;
+}
+#div_device{
+	display:none;
+}
+#channel{
+	background: #f1efed;
+}
+#agora_local{
+	float:right;
+	width:210px;
+	height:147px;
+	display:inline-block;
+}

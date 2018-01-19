@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>VideoCall</title>
+<script src="js/AgoraRTCSDK-1.13.0.js"></script>
+<script src="js/jquery.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css"/>
+</head>
+<body>
+<div id="div_device">
+<div class="select">
+<label for="audioSource">Audio source: </label><select id="audioSource"></select>
+</div>
+<div class="select">
+<label for="videoSource">Video source: </label><select id="videoSource"></select>
+</div>
+</div>
+
+<div id="div_join">
+<div class="panel-body">
+<select name="" id="channel">
+	<option value="100" selected="selected">Room1</option>
+	<option value="200">Room2</option>
+	<option value="300">Room3</option>
+	<option value="400">Room4</option>
+	<option value="500">Room5</option>
+	<option value="600">Room6</option>
+	<option value="700">Room7</option>
+	<option value="800">Room8</option>
+	<option value="900">Room9</option>
+	<option value="1000">Room10</option>
+	<option value="demoChannel1">Android</option>
+</select>
+<button id="join" class="btn" onclick="join()">加入</button>
+<button id="leave" class="btn" onclick="leave()">离开</button>
+<button id="publish" class="btn" onclick="publish()">Publish</button>
+<button id="unpublish" class="btn" onclick="unpublish()">Unpublish</button>
+</div>
+</div>
+
+<div id="video" style="margin:0 auto;">
+    <div id="agora_local"></div>
+</div>
+
+<script language="javascript" src="js/meet.js"></script>
+</body>
+</html>
