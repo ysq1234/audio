@@ -34,4 +34,5 @@ var options = { //证书
 };
 https.createServer(options, app).listen(8081,function () { //https服务器
     console.log('Https server listening on port ' + 8081);
+    console.log('Https server listening on port ' + 8081);
 });
