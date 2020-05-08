@@ -1,0 +1,29 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+.DS_Store
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+.nb-gradle/
+.git
+
+#### node_modules ###
+/node_modules/
+/package-lock.json/
+/.idea
+
+prod-fz.sh
