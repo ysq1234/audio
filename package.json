@@ -6,8 +6,8 @@
     "start": "node app.js"
   },
   "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "3.4.8"
+    "body-parser": "^1.20.1",
+    "express": "3.21.2"
   },
   "main": "DemoServer.js",
   "author": "agora"
